@@ -12,7 +12,7 @@ This (unofficial) app acts as a webview wrapper for [meow.camera](https://meow.c
 ## Screenshot
 
 <div align="center">
-<img src="./docs/assets/Screenshot_Pixel6pro.png" width="300"  />
+<img src="./docs/assets/Screenshot.png" width="300"  />
 </div>
 
 ## Installation
