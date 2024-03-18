@@ -1,4 +1,4 @@
-# ChatGPT App
+# meow.camera app
 
 ## About
 
