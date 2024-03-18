@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.matthaigh27.chatgptwrapper'
+    namespace 'com.itzdfplayer.meowcamerawrapper'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.matthaigh27.chatgptwrapper"
+        applicationId "com.itzdfplayer.meowcamerawrapper"
         minSdk 28
         targetSdk 33
         versionCode 1
-        versionName "1.5"
+        versionName "1.0"
     }
 
     buildTypes {
@@ -20,9 +20,12 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            debuggable false
         }
     }
-
     buildFeatures {
         viewBinding true
     }
